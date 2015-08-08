@@ -20,12 +20,15 @@ Prerequisite: [Meteor official doc on structuring your applications][doc]
 # My way of structuring a meteor app
 - before/
   - lib/
+
     There are three and only three lib folders in the app. This will be loaded
     firstly. Therefore, it is loaded before any js files excluding packages.
+
     - before/
       - 0-lodash.js
 
         ```_ = lodash```
+
         I replace underscore with lodash here. , I use number
         prefix to maintian loading order in a folder.
 
