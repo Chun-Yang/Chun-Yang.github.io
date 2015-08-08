@@ -24,18 +24,21 @@ Prerequisite: [Meteor official doc on structuring your applications][doc]
     firstly. Therefore, it is loaded before any js files excluding packages.
     - before/
       - 0-lodash.js
+
         ```_ = lodash```
         I replace underscore with lodash here. , I use number
         prefix to maintian loading order in a folder.
+
       - constants.js
+
         ```Constant = {}```
+
     - schemas/
       - users.js
-        {% highlight javascript %}
-        var UserSchema = SimpleSchema({})
-        Meteor.users.attachSchema(UserSchema)
-        {% endhighlight %}
+
+        ```Meteor.users.attachSchema(UserSchema)```
         I use [simple schema][simple-schema].
+
 - client/
   - autoruns/
   - components/
