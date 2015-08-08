@@ -65,5 +65,5 @@ Prerequisite: [Meteor official doc on structuring your applications][doc]
   - publications/
   - router.js
 
-[doc]: [http://docs.meteor.com/#/full/structuringyourapp]
+[doc]: http://docs.meteor.com/#/full/structuringyourapp
 [simple-schema]: https://github.com/aldeed/meteor-simple-schema
