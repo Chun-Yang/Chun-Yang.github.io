@@ -5,6 +5,8 @@ date:   2015-08-08 09:48:00
 categories: meteor
 ---
 
+Prerequisite: [Meteor official doc on structuring your applications][doc]
+
 # Major goals of structuring your meteor app
 - Another developer should be able to understand your app structure in a
   short amount of time.
@@ -15,11 +17,25 @@ categories: meteor
 - A global namespace and its methods should be confined into one folder or one
   file.
 
-# The recommend structure
+# My way of structuring a meteor app
 - before/
   - lib/
+    There are three and only three lib folders in the app. This will be loaded
+    firstly. Therefore, it is loaded before any js files excluding packages.
     - before/
+      - 0-lodash.js
+        ```_ = lodash```
+        I replace underscore with lodash here. , I use number
+        prefix to maintian loading order in a folder.
+      - constants.js
+        ```Constant = {}```
     - schemas/
+      - users.js
+        {% highlight javascript %}
+        var UserSchema = SimpleSchema({})
+        Meteor.users.attachSchema(UserSchema)
+        {% endhighlight %}
+        I use [simple schema][simple-schema].
 - client/
   - autoruns/
   - components/
@@ -71,3 +87,6 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 [jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-help]: https://github.com/jekyll/jekyll-help
+
+[doc]: [http://docs.meteor.com/#/full/structuringyourapp]
+[simple-schema]: https://github.com/aldeed/meteor-simple-schema
