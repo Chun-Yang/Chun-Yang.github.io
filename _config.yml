@@ -2,7 +2,7 @@
 title: Cut to the chase
 email: yang2007chun@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  software blog on meteor js, javascript.
+  software blog on meteor js, vim
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://chun-yang.github.io/" # the base hostname & protocol for your site
 github_username:  chun-yang
