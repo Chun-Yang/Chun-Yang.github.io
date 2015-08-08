@@ -25,21 +25,19 @@ Prerequisite: [Meteor official doc on structuring your applications][doc]
     firstly. Therefore, it is loaded before any js files excluding packages.
 
     - before/
-      - 0-lodash.js
-
-        ```_ = lodash```
-
+      - 0-lodash.js  
+        ```_ = lodash```  
         I replace underscore with lodash here. , I use number
         prefix to maintian loading order in a folder.
 
-      - constants.js
-
-        ```Constant = {}```
+      - constants.js  
+        ```Constant = {}```  
 
     - schemas/
       - users.js
 
         ```Meteor.users.attachSchema(UserSchema)```
+
         I use [simple schema][simple-schema].
 
 - client/
@@ -61,6 +59,22 @@ Prerequisite: [Meteor official doc on structuring your applications][doc]
   - authorizations/
   - factories/
   - lib/
+
+    This file wil be loaded before any server side files. Do `NOT` nest folders
+    more then two levels, since it will not ensure a lower loading order than
+    the ```before/lib/``` folder. You can use number prefix to ensure loading
+    order.
+
+    ```server/lib/helpers/format-time.js # GOOD```
+
+    ```server/lib/helpers/utils/formater.js # BAD```
+
+    - constant.js
+
+      ```Constant.SERVER_CONST = true```
+
+      Define constant in server side
+
   - methods/
   - publications/
   - router.js
