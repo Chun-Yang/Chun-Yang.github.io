@@ -25,7 +25,7 @@ It is relatively consistant to use ```control-s``` to save in vim.
 # ~/.vimrc
 nnoremap <c-s> :w<CR> # normal mode: save
 inoremap <c-s> <Esc>:w<CR>l # insert mode: escape to normal and save
-vnoremap <c-s> <Esc>:w<CR> # insert mode: escape to normal and save
+vnoremap <c-s> <Esc>:w<CR> # visual mode: escape to normal and save
 {% endhighlight %}
 
 - zsh (if you use)  
