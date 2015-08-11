@@ -28,7 +28,7 @@ vnoremap <c-s> <Esc>:w<CR> # insert mode: escape to normal and save
 {% endhighlight %}
 
 ## zsh
-[why](http://superuser.com/questions/385175/how-to-reclaim-s-in-zsh)
+[why][zsh]
 {% highlight bash %}
 # enable control-s and control-q
 stty start undef
@@ -37,8 +37,11 @@ setopt noflowcontrol
 {% endhighlight %}
 
 ## bash
-[why](http://unix.stackexchange.com/questions/72086/ctrl-s-hang-terminal-emulator)
+[why][bash]
 {% highlight bash %}
 # enable control-s and control-q
 stty -ixon
 {% endhighlight %}
+
+[zsh]: http://superuser.com/questions/385175/how-to-reclaim-s-in-zsh
+[bash]: http://unix.stackexchange.com/questions/72086/ctrl-s-hang-terminal-emulator
