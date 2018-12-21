@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Unsugarcoated tech blog
+I am just to lazy :P

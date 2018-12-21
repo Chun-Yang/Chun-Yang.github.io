@@ -1,10 +1,10 @@
 # Site settings
-title: Cut to the chase
-email: yang2007chun@gmail.com
+title: CY Blog
+email: cy@charlieyankeeblog.com
 description: > # this means to ignore newlines until "baseurl:"
-  unsugarcoated tech blog
+  CY stands for Chun Yang :)
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://chun-yang.github.io/" # the base hostname & protocol for your site
+url: "https://charlieyankeeblog.com" # the base hostname & protocol for your site
 github_username:  chun-yang
 
 # Build settings
