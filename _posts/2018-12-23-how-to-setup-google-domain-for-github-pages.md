@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  How to setup google domain for github pages
 date:   2018-12-23
 permalink: /how-to-setup-google-domain-for-github-pages/
@@ -26,13 +26,16 @@ Github pages is easy to setup, but to attach a custom domain with google domains
 - Go to DNS > Custom resource records
   ![DNS Custom resource records](/assets/image/google-domains-and-github-pages/google-domain-custom-resource.png)
 
-- Add the record shown in the screenshot. Note that you need to use the "+" button to add more urls.
+- Add the record shown in the screenshot bellow. Note that you need to use the "+" button to add more urls.
   ![A record](/assets/image/google-domains-and-github-pages/google-domains-a-record.png)
-  Here is the list of ips in the screenshot. Incase they are outdated, you can find it at [github](https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider).
+  Here is the list of ips in the screenshot:
   - 185.199.111.153
   - 185.199.110.153
   - 185.199.109.153
   - 185.199.108.153
+
+  
+  Incase these are outdated, you can also find the latest ones at [github](https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider).
 
 - To confirm that your DNS record is set up correctly, use the dig command to do a lookup of your domain
   ```console

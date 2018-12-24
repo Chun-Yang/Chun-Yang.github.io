@@ -11,4 +11,4 @@ linkedin_username:  chun-trent-yang-247a8060
 # Build settings
 markdown: kramdown
 
-theme: jekyll-theme-cayman
+theme: jekyll-theme-primer
