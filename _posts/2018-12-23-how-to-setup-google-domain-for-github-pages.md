@@ -46,7 +46,8 @@ Github pages is easy to setup, but to attach a custom domain with google domains
 - Once the above is successful, your custom domain should work correctly. Go to your domain and take a look!
 
 ## STEP 3/3: (optional but HIGHLY recommended) Enable https for your github pages
-- Go to your github repository settings page,
-  remove and add your custom domain name back under the Settings > GitHub Pages > Custom domain
+- Go to your github repository settings page, under Settings > GitHub Pages > Custom domain
+  remove your custom domain and save.
   ![GitHub Settings Github Pages](/assets/image/google-domains-and-github-pages/github-github-pages.png)
+- Then add it back and save again.
 - Now you should be able to check the "Enforce HTTPS" checkbox and secure your site!

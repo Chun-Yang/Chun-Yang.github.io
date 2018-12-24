@@ -17,6 +17,7 @@
 
   </body>
 
+  <!-- We put the scirpt here is because we need our custom script to load right after medium-zoom loads. if we use async, we can not gurantee the execution order -->
   <script src="https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
