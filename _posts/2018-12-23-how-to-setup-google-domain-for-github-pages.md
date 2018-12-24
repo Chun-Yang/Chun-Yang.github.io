@@ -35,7 +35,7 @@ Github pages is easy to setup, but to attach a custom domain with google domains
   - 185.199.108.153
 
 - To confirm that your DNS record is set up correctly, use the dig command to do a lookup of your domain
-  ```
+  ```console
   $ dig +noall +answer charlieyankeeblog.com
   charlieyankeeblog.com.  3600  IN  A  185.199.111.153
   charlieyankeeblog.com.  3600  IN  A  185.199.110.153
