@@ -8,20 +8,20 @@ categories: hosting
 ---
 
 ## Intro
-Github pages is easy to setup, but to attach a custom domain with google domains, you may run into problems. Here is how you can do it in 3 steps.
+Github pages is easy to setup, but to attach a custom domain with google domains, you may run into problems. Here is how you can do it in 4 steps.
 
 ## Prerequisites
 - You have a [github pages](https://pages.github.com/) repository, e.g. https://github.com/Chun-Yang/Chun-Yang.github.io
 - You purchased a domain on [google domain](https://www.domains.google), e.g. charlieyankeeblog.com
 
-## STEP 1/3: Add your custom domain to your GitHub Pages site
+## STEP 1/4: Let gitHub pages know your custom domain
 - Go to your github repository settings page
   ![GitHub Settings](/assets/image/google-domains-and-github-pages/github-settings.png){:class="zoomable"}
 
 - Add you custom domain name at Settings > GitHub Pages > Custom domain
   ![GitHub Settings Github Pages](/assets/image/google-domains-and-github-pages/github-github-pages.png){:class="zoomable"}
 
-## STEP 2/3: Configure "A records" with google domains
+## STEP 2/4: Let your custom domain (charlieyankeeblog.com) points to your github pages
 - Go to [registar](https://domains.google.com/m/registrar/) page on your google domains, select your domain
   ![Google Domain Register](/assets/image/google-domains-and-github-pages/google-domain-list.png){:class="zoomable"}
 
@@ -50,7 +50,11 @@ Github pages is easy to setup, but to attach a custom domain with google domains
 
 - Once the above is successful, your custom domain should work correctly. Go to your domain and take a look!
 
-## STEP 3/3: (optional but HIGHLY recommended) Enable HTTPS for your github pages
+## STEP 3/4: Let your www sub-domain (www.charlieyankeeblog.com) point to your github pages
+- Add the following CNAME record
+  ![CNAME record](/assets/image/google-domains-and-github-pages/cname-record.png){:class="zoomable"}
+
+## STEP 4/4: (optional but HIGHLY recommended) Enable HTTPS for your github pages
 - Go to your github repository settings page, under Settings > GitHub Pages > Custom domain
   remove your custom domain and save.
   ![GitHub Settings Github Pages](/assets/image/google-domains-and-github-pages/github-github-pages.png){:class="zoomable"}
