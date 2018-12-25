@@ -19,17 +19,35 @@
   </head>
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
-      {% if site.title and site.title != page.title %}
-      <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
-      {% endif %}
+      <header>
+        <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
 
-      {{ content }}
+        {% if page.title %}
+        <h1>{{ page.title }}</h1>
+        {% endif %}
+
+        {% if page.date %}
+        <span class="secondary">{{ page.date | date: "%Y-%m-%d" }}</span>
+        {% endif %}
+
+        {% if page.cover_url %}
+        <img src="{{ page.cover_url }}" alt="cover photo"/>
+        {% endif %}
+      </header>
+
+      <div class="content">
+        {{ content }}
+      </div>
+
+      <footer>
+
+      </footer>
     </div>
     <!-- medium like zoom behavior for all img tags -->
     <script src="https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js"></script>
     <script>
       document.addEventListener('DOMContentLoaded', () => {
-        window.mediumZoom('img')
+        window.mediumZoom('.content img')
       });
     </script>
   </body>

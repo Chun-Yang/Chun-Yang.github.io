@@ -3,10 +3,12 @@ layout: default
 title:  How to setup google domain for github pages
 date:   2018-12-23
 permalink: /how-to-setup-google-domain-for-github-pages/
+cover_url: /assets/image/google-domains-and-github-pages/google-domains-and-github-pages-cover.png
 categories: hosting
 ---
+
 ## Intro
-Github pages is easy to setup, but to attach a custom domain with google domains, you may run into problems. Here are how you can do it in 3 steps.
+Github pages is easy to setup, but to attach a custom domain with google domains, you may run into problems. Here is how you can do it in 3 steps.
 
 ## Prerequisites
 - You have a [github pages](https://pages.github.com/) repository, e.g. https://github.com/Chun-Yang/Chun-Yang.github.io
@@ -48,7 +50,7 @@ Github pages is easy to setup, but to attach a custom domain with google domains
 
 - Once the above is successful, your custom domain should work correctly. Go to your domain and take a look!
 
-## STEP 3/3: (optional but HIGHLY recommended) Enable https for your github pages
+## STEP 3/3: (optional but HIGHLY recommended) Enable HTTPS for your github pages
 - Go to your github repository settings page, under Settings > GitHub Pages > Custom domain
   remove your custom domain and save.
   ![GitHub Settings Github Pages](/assets/image/google-domains-and-github-pages/github-github-pages.png)
