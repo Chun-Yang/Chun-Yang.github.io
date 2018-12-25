@@ -11,10 +11,11 @@ layout: default
           <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
         <span class="secondary">{{ post.date | date: "%Y-%m-%d" }}</span>
+        {% if post.cover_url %}
+        <img src="{{ post.cover_url }}" alt="cover photo"/>
+        {% endif %}
       </li>
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>

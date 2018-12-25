@@ -39,15 +39,39 @@
         {{ content }}
       </div>
 
-      <footer>
+      <footer class="footer">
+        <ul>
+          <li>
+            <a href="mailto:{{ site.email }}">
+              Email
+            </a>
+          </li>
 
+          <li>
+            <a target="_blank" href="https://github.com/{{ site.github_username }}">
+              Github
+            </a>
+          </li>
+
+          <li>
+            <a target="_blank" href="https://linkedin.com/in/{{ site.linkedin_username }}">
+              LinkedIn
+            </a>
+          </li>
+
+          <li>
+            <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+              RSS
+            </a>
+          </li>
+        </ul>
       </footer>
     </div>
     <!-- medium like zoom behavior for all img tags -->
     <script src="https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js"></script>
     <script>
       document.addEventListener('DOMContentLoaded', () => {
-        window.mediumZoom('.content img')
+        window.mediumZoom('img.zoomable')
       });
     </script>
   </body>

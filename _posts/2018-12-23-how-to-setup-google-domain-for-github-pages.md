@@ -16,20 +16,20 @@ Github pages is easy to setup, but to attach a custom domain with google domains
 
 ## STEP 1/3: Add your custom domain to your GitHub Pages site
 - Go to your github repository settings page
-  ![GitHub Settings](/assets/image/google-domains-and-github-pages/github-settings.png)
+  ![GitHub Settings](/assets/image/google-domains-and-github-pages/github-settings.png){:class="zoomable"}
 
 - Add you custom domain name at Settings > GitHub Pages > Custom domain
-  ![GitHub Settings Github Pages](/assets/image/google-domains-and-github-pages/github-github-pages.png)
+  ![GitHub Settings Github Pages](/assets/image/google-domains-and-github-pages/github-github-pages.png){:class="zoomable"}
 
 ## STEP 2/3: Configure "A records" with google domains
 - Go to [registar](https://domains.google.com/m/registrar/) page on your google domains, select your domain
-  ![Google Domain Register](/assets/image/google-domains-and-github-pages/google-domain-list.png)
+  ![Google Domain Register](/assets/image/google-domains-and-github-pages/google-domain-list.png){:class="zoomable"}
 
 - Go to DNS > Custom resource records
-  ![DNS Custom resource records](/assets/image/google-domains-and-github-pages/google-domain-custom-resource.png)
+  ![DNS Custom resource records](/assets/image/google-domains-and-github-pages/google-domain-custom-resource.png){:class="zoomable"}
 
 - Add the record shown in the screenshot bellow. Note that you need to use the "+" button to add more urls.
-  ![A record](/assets/image/google-domains-and-github-pages/google-domains-a-record.png)
+  ![A record](/assets/image/google-domains-and-github-pages/google-domains-a-record.png){:class="zoomable"}
   Here is the list of ips in the screenshot:
   - 185.199.111.153
   - 185.199.110.153
@@ -53,6 +53,6 @@ Github pages is easy to setup, but to attach a custom domain with google domains
 ## STEP 3/3: (optional but HIGHLY recommended) Enable HTTPS for your github pages
 - Go to your github repository settings page, under Settings > GitHub Pages > Custom domain
   remove your custom domain and save.
-  ![GitHub Settings Github Pages](/assets/image/google-domains-and-github-pages/github-github-pages.png)
+  ![GitHub Settings Github Pages](/assets/image/google-domains-and-github-pages/github-github-pages.png){:class="zoomable"}
 - Then add it back and save again.
 - Now you should be able to check the "Enforce HTTPS" checkbox and secure your site!

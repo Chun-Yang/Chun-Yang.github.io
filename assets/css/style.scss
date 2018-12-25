@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-.content img {
+img.zoomable {
   margin-top: 20px;
   margin-bottom: 20px;
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;
@@ -26,4 +26,22 @@
 .index li h2 {
   margin: 0;
   border-bottom: none;
+}
+
+footer {
+  border-top: 1px solid #eaecef;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+footer.footer ul {
+  display: flex;
+  padding-left: 0;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+footer.footer li {
+  list-style-type: none;
+  margin: 0 0 0 10px;
 }
