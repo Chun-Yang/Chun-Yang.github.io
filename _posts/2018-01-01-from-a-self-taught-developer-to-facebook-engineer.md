@@ -106,4 +106,4 @@ It's easy to be nervous when under pressure and the stake is high. I was more ex
 - Be cooperative. The goal of the interviewer is to evaluate your capability as accurate as possible. Tell the interviewer what you think and listen for subtle cues when you get stuck.
 
 ## Summary
-I tried to document my experience of getting a job at Facebook. The process shold be very similar to the other tech giants. It would be my pleasure if you can get any value out of this post. Never stop improving!
+I tried to document my experience of getting a job at Facebook. The process should be very similar to the other tech giants. It would be my pleasure if you can get any value out of this post. Never stop improving!
