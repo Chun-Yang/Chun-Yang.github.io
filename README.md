@@ -2,4 +2,4 @@
 bundle exec jekyll serve
 
 ## url
-http://charlieyankeeblog.com/
+http://trentyang.com/
