@@ -12,7 +12,7 @@ Github pages is easy to setup, but to attach a custom domain with google domains
 
 ## Prerequisites
 - You have a [github pages](https://pages.github.com/) repository, e.g. https://github.com/Chun-Yang/Chun-Yang.github.io
-- You purchased a domain on [google domain](https://www.domains.google), e.g. charlieyankeeblog.com
+- You purchased a domain on [google domain](https://www.domains.google), e.g. trentyang.com
 
 ## STEP 1/4: Let gitHub pages know your custom domain
 - Go to your github repository settings page
@@ -21,7 +21,7 @@ Github pages is easy to setup, but to attach a custom domain with google domains
 - Add you custom domain name at Settings > GitHub Pages > Custom domain
   ![GitHub Settings Github Pages](/assets/image/google-domains-and-github-pages/github-github-pages.png){:class="zoomable"}
 
-## STEP 2/4: Let your custom domain (charlieyankeeblog.com) points to your github pages
+## STEP 2/4: Let your custom domain (trentyang.com) points to your github pages
 - Go to [registar](https://domains.google.com/m/registrar/) page on your google domains, select your domain
   ![Google Domain Register](/assets/image/google-domains-and-github-pages/google-domain-list.png){:class="zoomable"}
 
@@ -41,24 +41,24 @@ Github pages is easy to setup, but to attach a custom domain with google domains
 
 - To confirm that your DNS record is set up correctly, use the dig command to do a lookup of your domain
   ```console
-  $ dig charlieyankeeblog.com +noall +answer
-  charlieyankeeblog.com.  3600  IN  A  185.199.111.153
-  charlieyankeeblog.com.  3600  IN  A  185.199.110.153
-  charlieyankeeblog.com.  3600  IN  A  185.199.109.153
-  charlieyankeeblog.com.  3600  IN  A  185.199.108.153
+  $ dig trentyang.com +noall +answer
+  trentyang.com.  3600  IN  A  185.199.111.153
+  trentyang.com.  3600  IN  A  185.199.110.153
+  trentyang.com.  3600  IN  A  185.199.109.153
+  trentyang.com.  3600  IN  A  185.199.108.153
   ```
 
 - Once the above is successful, your custom domain should work correctly. Go to your domain and take a look!
 
-## STEP 3/4: Let your www sub-domain (www.charlieyankeeblog.com) point to your github pages
+## STEP 3/4: Let your www sub-domain (www.trentyang.com) point to your github pages
 - Add the following CNAME record
   ![CNAME record](/assets/image/google-domains-and-github-pages/cname-record.png){:class="zoomable"}
 
 - You can use the following dig command to confirm that your setup is correct
   ```console
-  $ dig www.charlieyankeeblog.com +nostats +nocomments +nocmd
-  www.charlieyankeeblog.com.      IN      A
-  www.charlieyankeeblog.com. 1263 IN      CNAME   chun-yang.github.io.
+  $ dig www.trentyang.com +nostats +nocomments +nocmd
+  www.trentyang.com.      IN      A
+  www.trentyang.com. 1263 IN      CNAME   chun-yang.github.io.
   ```
 
 ## STEP 4/4: (optional but HIGHLY recommended) Enable HTTPS for your github pages

@@ -1,8 +1,8 @@
 # Site settings
-title: CY Blog
-email: cy@charlieyankeeblog.com
+title: Trent Yang
+email: trentyang@trentyang.com
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://charlieyankeeblog.com" # the base hostname & protocol for your site
+url: "https://trentyang.com" # the base hostname & protocol for your site
 github_username:  chun-yang
 linkedin_username:  chun-trent-yang-247a8060
 
