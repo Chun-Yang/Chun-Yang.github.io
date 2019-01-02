@@ -69,7 +69,7 @@ focused on the algorithms when reviewing instead of coding the solution again wh
 Surely I could not have guess what the questions would be in the interviews, but I could prepare a strategy. One important thing to keep in mind is that the interviews are meant to evaluate your capability. And the best way you can help interviewers is to talk out loud. Whatever you are thinking, you should make it explicit. Coding correctly with the most efficient algorithm on a white board is very important, but conveying our thought process is also very valuable in an interview since this send more helpful signals to the interviewer, expecially when you are not doing very good at coding.
 
 ## Interviews process
-![Interview](/assets/image/self-taught-to-facebook/interview.gif)
+![Interview from https://media.giphy.com/media/FcTdv3xQKhCIE/giphy.gif](/assets/image/self-taught-to-facebook/interview.gif)
 
 ### Phone interview
 Phone interview is a screening process. It seems Facebook use this interview to quickly filter out unqualified candidates. I was asked to solve a algorithm problem in a coding environment like Google Docs. This interview is not too changeling for me.
