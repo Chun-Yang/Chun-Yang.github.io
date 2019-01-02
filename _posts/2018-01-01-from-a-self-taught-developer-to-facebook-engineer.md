@@ -32,7 +32,7 @@ I have a habit of __documenting projects__ I worked on on Linkedin. This helped 
 
 ## Interviews preparation
 ![Leetcode](https://trentyang.com/assets/image/self-taught-to-facebook/leetcode.png)
-### Read an algorithem book
+### Read an algorithm book
 I did not have a CS degree, but I did read one algorithm book (Algorithems by Robert Sedgewick and Kevin Wayne) and finished several CS courses on Coursera and Udacity even before my first job. I would definitely recommened any software engineer to read an algorithm book especially when you do not hold a CS degree. This is not just tremendously helpful for the interviews, a software engineer absolutely need to know the fundamentals if he/her wants to develop decently complicated programs.
 
 ### Preparation strategy
