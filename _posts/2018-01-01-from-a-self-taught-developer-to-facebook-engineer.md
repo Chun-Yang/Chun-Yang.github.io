@@ -3,7 +3,7 @@ layout: default
 title:  From a self-taught developer to Facebook engineer
 date:   2018-01-01
 permalink: /from-a-self-taught-developer-to-facebook/
-cover_url: /assets/image/self-taught-to-facebook/fang.jpg
+cover_url: https://trentyang.com/assets/image/self-taught-to-facebook/fang.jpg
 comments: true
 ---
 
@@ -31,7 +31,7 @@ Here is the [resume](https://docs.google.com/document/d/1NYSpOMyNElvszKvXj628ifn
 I have a habit of __documenting projects__ I worked on on Linkedin. This helped me prepareing my resume. Also before in-person interviews I reviewed my previous projects in order to bring up interesting problems I solved and lessons I learnt. The preparation calmed me down and boosted my confidence. Both the recruiter and the interviewers asked about my previous experience on some level of details. Being able to talk about some interesting projects was definitely a plus for me.
 
 ## Interviews preparation
-![Leetcode](/assets/image/self-taught-to-facebook/leetcode.png)
+![Leetcode](https://trentyang.com/assets/image/self-taught-to-facebook/leetcode.png)
 ### Read an algorithem book
 I did not have a CS degree, but I did read one algorithm book (Algorithems by Robert Sedgewick and Kevin Wayne) and finished several CS courses on Coursera and Udacity even before my first job. I would definitely recommened any software engineer to read an algorithm book especially when you do not hold a CS degree. This is not just tremendously helpful for the interviews, a software engineer absolutely need to know the fundamentals if he/her wants to develop decently complicated programs.
 
@@ -69,7 +69,7 @@ focused on the algorithms when reviewing instead of coding the solution again wh
 Surely I could not have guess what the questions would be in the interviews, but I could prepare a strategy. One important thing to keep in mind is that the interviews are meant to evaluate your capability. And the best way you can help interviewers is to talk out loud. Whatever you are thinking, you should make it explicit. Coding correctly with the most efficient algorithm on a white board is very important, but conveying our thought process is also very valuable in an interview since this send more helpful signals to the interviewer, expecially when you are not doing very good at coding.
 
 ## Interviews process
-![Interview from https://media.giphy.com/media/FcTdv3xQKhCIE/giphy.gif](/assets/image/self-taught-to-facebook/interview.gif)
+![Interview from https://media.giphy.com/media/FcTdv3xQKhCIE/giphy.gif](https://trentyang.com/assets/image/self-taught-to-facebook/interview.gif)
 
 ### Phone interview
 Phone interview is a screening process. It seems Facebook use this interview to quickly filter out unqualified candidates. I was asked to solve a algorithm problem in a coding environment like Google Docs. This interview is not too changeling for me.

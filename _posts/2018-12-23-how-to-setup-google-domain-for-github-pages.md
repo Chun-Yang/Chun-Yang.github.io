@@ -3,7 +3,7 @@ layout: default
 title:  How to setup google domain for github pages
 date:   2018-12-23
 permalink: /how-to-setup-google-domain-for-github-pages/
-cover_url: /assets/image/google-domains-and-github-pages/google-domains-and-github-pages-cover.png
+cover_url: https://trentyang.com/assets/image/google-domains-and-github-pages/google-domains-and-github-pages-cover.png
 comments: true
 ---
 
@@ -16,20 +16,20 @@ Github pages is easy to setup, but to attach a custom domain with google domains
 
 ## STEP 1/4: Let gitHub pages know your custom domain
 - Go to your github repository settings page
-  ![GitHub Settings](/assets/image/google-domains-and-github-pages/github-settings.png){:class="zoomable"}
+  ![GitHub Settings](https://trentyang.com/assets/image/google-domains-and-github-pages/github-settings.png){:class="zoomable"}
 
 - Add you custom domain name at Settings > GitHub Pages > Custom domain
-  ![GitHub Settings Github Pages](/assets/image/google-domains-and-github-pages/github-github-pages.png){:class="zoomable"}
+  ![GitHub Settings Github Pages](https://trentyang.com/assets/image/google-domains-and-github-pages/github-github-pages.png){:class="zoomable"}
 
 ## STEP 2/4: Let your custom domain (trentyang.com) points to your github pages
 - Go to [registar](https://domains.google.com/m/registrar/) page on your google domains, select your domain
-  ![Google Domain Register](/assets/image/google-domains-and-github-pages/google-domain-list.png){:class="zoomable"}
+  ![Google Domain Register](https://trentyang.com/assets/image/google-domains-and-github-pages/google-domain-list.png){:class="zoomable"}
 
 - Go to DNS > Custom resource records
-  ![DNS Custom resource records](/assets/image/google-domains-and-github-pages/google-domain-custom-resource.png){:class="zoomable"}
+  ![DNS Custom resource records](https://trentyang.com/assets/image/google-domains-and-github-pages/google-domain-custom-resource.png){:class="zoomable"}
 
 - Add the record shown in the screenshot bellow. Note that you need to use the "+" button to add more urls.
-  ![A record](/assets/image/google-domains-and-github-pages/google-domains-a-record.png){:class="zoomable"}
+  ![A record](https://trentyang.com/assets/image/google-domains-and-github-pages/google-domains-a-record.png){:class="zoomable"}
   Here is the list of ips in the screenshot:
   - 185.199.111.153
   - 185.199.110.153
@@ -52,7 +52,7 @@ Github pages is easy to setup, but to attach a custom domain with google domains
 
 ## STEP 3/4: Let your www sub-domain (www.trentyang.com) point to your github pages
 - Add the following CNAME record
-  ![CNAME record](/assets/image/google-domains-and-github-pages/cname-record.png){:class="zoomable"}
+  ![CNAME record](https://trentyang.com/assets/image/google-domains-and-github-pages/cname-record.png){:class="zoomable"}
 
 - You can use the following dig command to confirm that your setup is correct
   ```console
@@ -64,6 +64,6 @@ Github pages is easy to setup, but to attach a custom domain with google domains
 ## STEP 4/4: (optional but HIGHLY recommended) Enable HTTPS for your github pages
 - Go to your github repository settings page, under Settings > GitHub Pages > Custom domain
   remove your custom domain and save.
-  ![GitHub Settings Github Pages](/assets/image/google-domains-and-github-pages/github-github-pages.png){:class="zoomable"}
+  ![GitHub Settings Github Pages](https://trentyang.com/assets/image/google-domains-and-github-pages/github-github-pages.png){:class="zoomable"}
 - Then add it back and save again.
 - Now you should be able to check the "Enforce HTTPS" checkbox and secure your site!
