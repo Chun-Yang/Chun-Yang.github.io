@@ -12,3 +12,4 @@ theme: jekyll-theme-primer
 
 plugins:
   - jekyll-sitemap
+  - jekyll-last-modified-at
