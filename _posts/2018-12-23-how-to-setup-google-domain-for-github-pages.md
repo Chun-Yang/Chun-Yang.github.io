@@ -3,7 +3,7 @@ layout: default
 title:  How to setup google domain for github pages
 date:   2018-12-23
 permalink: /how-to-setup-google-domain-for-github-pages/
-cover_url: https://trentyang.com/assets/image/google-domains-and-github-pages/google-domains-and-github-pages-cover.png
+cover_url: /assets/image/google-domains-and-github-pages/google-domains-and-github-pages-cover.png
 comments: true
 ---
 

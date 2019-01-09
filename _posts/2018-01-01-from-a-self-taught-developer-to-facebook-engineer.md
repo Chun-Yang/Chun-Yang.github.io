@@ -3,7 +3,7 @@ layout: default
 title:  From a self-taught developer to Facebook engineer
 date:   2018-01-01
 permalink: /from-a-self-taught-developer-to-facebook/
-cover_url: https://trentyang.com/assets/image/self-taught-to-facebook/fang.jpg
+cover_url: /assets/image/self-taught-to-facebook/fang.jpg
 comments: true
 ---
 
