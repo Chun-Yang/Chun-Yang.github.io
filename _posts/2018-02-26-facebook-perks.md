@@ -14,7 +14,7 @@ Since I joined Facebook several friends asked me about the benefits. I think mor
 ## Overview
 Here is an overview of the perks ranked by cash value:
 ![GitHub Settings](/assets/image/fb-perks-ranked.png){:class="zoomable"}
-This chart is created at [freechartonline](https://freechartonline.com)
+This chart is created with [freechartonline](http://bit.ly/2J8zT9O)
 
 ## #1 Paid Parental Leave
 Full-time employees at Facebook are eligible to take paid leave for up to 4 months. We can also take the leave intermittently within one year. With [a median pay of $240,000](https://www.sfchronicle.com/business/networth/article/Yes-median-pay-at-Facebook-really-is-about-12870786.php), this benefit is worth $80,000 for a typical Facebook employee.
