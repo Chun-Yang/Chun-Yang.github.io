@@ -7,11 +7,11 @@ cover_url: /assets/image/git.jpg
 comments: true
 ---
 
-I was once a Git googler (I mean I google Git a lot :P) until one day I sit down and decide to spend a bit of time remembering the most common commands. My approach was to develop an easy-to-understand framework and use systematic alias to replace Git commands. I present you my Git ABC.
+I was once a Git googler (I mean I google Git a lot :P) until one day I sit down and decide to spend a bit of time remembering the most common commands. My approach was to develop an easy-to-understand framework and use systematic aliases to replace Git commands. If that sounds interesting, I present you the Git ABC.
 ![git abc](https://media.giphy.com/media/3o6Zti2G1pq3skGxKE/giphy.gif)
 
 ## Git ABC
-There are three stages our code will go through in Git. I used A, B and C to represent them.
+There are three stages a file change (for example adding a new line) need to go through in Git. I use A, B and C to represent them.
 
 ### Stage A
 Unstaged changes and untracked files are in stage A. `git status` will show them in red.
@@ -26,11 +26,11 @@ In Git lingo, these changes are now 'staged'.
 After we `git commit -m`, changes will be moved to stage C (committed stage).
 
 ## Alias
-Not comes the fun part.
+Now comes the fun part.
 ![Git ABC](https://trentyang.com/assets/image/git-abc.svg){:class="zoomable"}
 
 ### Move forward
-We should already be familiar with `git add` and `git commit` so I choose the following aliases to move changes forward
+Git users should already be familiar with `git add` and `git commit` so I choose the following aliases to move changes forward
 - `alias ga='git add -A'` (Git Add) move changes from stage A to B
 - `alias gc='git commit -m'` (Git Commit) move changes from stage B to C
 
