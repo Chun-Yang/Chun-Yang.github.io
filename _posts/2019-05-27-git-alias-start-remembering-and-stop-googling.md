@@ -7,7 +7,8 @@ cover_url: /assets/image/git.jpg
 comments: true
 ---
 
-I was once a Git googler (I mean I google Git a lot :P) until one day I sit down and decide to spend a bit of time remembing the most common commands. My approach was to develope an easy to understand framework and use systmatic alias to replace Git commands. Here I present you my Git ABC.
+I was once a Git googler (I mean I google Git a lot :P) until one day I sit down and decide to spend a bit of time remembering the most common commands. My approach was to develop an easy-to-understand framework and use systematic alias to replace Git commands. I present you my Git ABC.
+![git abc](https://media.giphy.com/media/3o6Zti2G1pq3skGxKE/giphy.gif)
 
 ## Git ABC
 There are three stages our code will go through in Git. I used A, B and C to represent them.
@@ -22,7 +23,7 @@ In Git lingo, these changes are now 'staged'.
 ![Stage B](https://trentyang.com/assets/image/git-b.png){:class="zoomable"}
 
 ### Stage C
-After we `git commit -m`, changes will be moved to stage C (commited stage).
+After we `git commit -m`, changes will be moved to stage C (committed stage).
 
 ## Alias
 Not comes the fun part.
@@ -42,7 +43,7 @@ I use `go` to undo changes. We can think of it as 'go away' :)
 - `alias gocc='git reset --hard HEAD~1'` (GO from C Confirm) remove the whole commit from C
 
 ### Check differences between stages
-I use `gd` (Git Diff) to check difference.
+I use `gd` (Git Diff) to check the difference.
 - `alias gd='git diff'` Difference between A and B
 - `alias gdbc='git diff --cached'` Difference between B and C
 - `alias gdac='git diff HEAD'` Difference between A and C
@@ -90,5 +91,7 @@ alias grc='git rebase --continue'
 alias gri='git rebase -i master'
 ```
 
-## Go above and beyound
-At last I encourage you to create your own aliases for profit and fun :)
+## Go above and beyond
+At last, I encourage you to go crazy and create your own aliases for profit and fun :)
+
+![go crazy](https://media.giphy.com/media/39xDh4ja5Tp6IpDyBU/giphy.gif)
